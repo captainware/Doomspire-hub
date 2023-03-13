@@ -1,6 +1,6 @@
 spawn(function()
 local message = Instance.new("Message",workspace)
-message.Text = "Loaded press z to execute inviseble , press x to respawn)"
+message.Text = "Loaded press x to execute inviseble , press x to respawn)"
 wait(2)
 message:Destroy()
 end)
@@ -18,7 +18,7 @@ local groot = nil
  
 mouse.KeyDown:connect(function(k)
     
-    if k == "z" then
+    if k == "x" then
         
         
  
