@@ -1,6 +1,6 @@
 spawn(function()
 local message = Instance.new("Message",workspace)
-message.Text = "Loaded press x to execute inviseble , press x to respawn)"
+message.Text = "Loaded press x to execute inviseble , press r to respawn)"
 wait(2)
 message:Destroy()
 end)
@@ -184,7 +184,7 @@ Fly()
  
         
         
-    elseif k == "x" then
+    elseif k == "r" then
         
         
         spawn(function()
