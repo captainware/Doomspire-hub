@@ -1,7 +1,1 @@
-local gameid = game.PlaceId if(gameid == 1215581239) then loadstring(game:HttpGet('https://raw.githubusercontent.com/captainware/Doomspire-hub/main/MainScript'))() else local player = game.Players.LocalPlayer
-player:Kick("Wrong game.")
-
-end
-
-
---delete local gameid = game.PlaceId if(gameid == 1215581239) then  player:Kick("Wrong game.") end and else local player = game.Players.LocalPlayer to use the script in any game--
+loadstring(game:HttpGet('https://raw.githubusercontent.com/captainware/Doomspire-hub/main/MainScript'))()
